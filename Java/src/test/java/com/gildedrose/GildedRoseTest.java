@@ -12,8 +12,8 @@ class GildedRoseTest {
     void foo() {
         CombinationApprovals.verifyAllCombinations(this::doUpdate,
             new String[]{"foo","Aged Brie","Backstage passes to a TAFKAL80ETC concert","Sulfuras, Hand of Ragnaros"},
-            new Integer[]{0,-1},
-            new Integer[]{0,1,10});
+            new Integer[]{0,-1,3,17,20,50},
+            new Integer[]{0,-1,1,10,30,48,49,60,100});
     }
 
     private String doUpdate(String name, int sellIn, int quality) {
